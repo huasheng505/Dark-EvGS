@@ -10,7 +10,6 @@
 - **Authors**: Jingqian Wu, Peiqi Duan, Zongqiang Wang, Changwei Wang, Boxin Shi, Edmund Y. Lam  
 - **Venue**: IEEE Transactions on Image Processing (TIP), 2026  
 - **IEEE Xplore**: https://ieeexplore.ieee.org/abstract/document/11449405  
-- **arXiv**: https://arxiv.org/submit/7472197/view  
 
 ---
 
