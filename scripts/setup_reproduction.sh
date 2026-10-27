@@ -36,6 +36,9 @@ if [[ "$mode" == cuda ]]; then
   [[ -z "$(git -C "$ext_dir" status --porcelain --untracked-files=no)" ]] || { echo 'CUDA extension source has local changes; preserve them and choose a fresh cache.' >&2; exit 1; }
   git -C "$ext_dir" submodule update --init --recursive
   export MAX_JOBS="${MAX_JOBS:-4}"
+  # The pinned 2023 source relies on a transitive <cstdint> include that newer
+  # CUDA headers no longer supply. Keep the verified source unchanged.
+  export NVCC_PREPEND_FLAGS="--pre-include=cstdint${NVCC_PREPEND_FLAGS:+ $NVCC_PREPEND_FLAGS}"
   uv pip install --python "$venv_dir/bin/python" --no-build-isolation "$ext_dir"
   "$venv_dir/bin/python" -c 'from diff_gaussian_rasterization import GaussianRasterizer, GaussianRasterizationSettings; print("CUDA rasterizer import passed")'
 fi
