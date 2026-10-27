@@ -1,5 +1,11 @@
 # Dark-EvGS: Event Camera as an Eye for Radiance Field in the Dark
 
+> **Independent training implementation:** see [中文复现指南](docs/REPRODUCTION.md)
+> for the added prior training, triplet-supervised Gaussian training, checkpoint
+> resume, inference and evaluation workflow. This is a paper-guided independent
+> implementation; the unpublished author CTCM/data are not included. CPU tests
+> and a synthetic end-to-end workflow pass; GPU/paper-metric validation is pending.
+
 > This repository supports reproducibility for the IEEE TIP paper **Dark-EvGS: Event Camera as an Eye for Radiance Field in the Dark**. It provides code, sample data, and selected pretrained outputs for rendering reproduction and dataset usage.
 
 ---

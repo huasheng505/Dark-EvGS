@@ -1,0 +1,7 @@
+# PyTorch is installed separately from its official CPU/CUDA wheel index.
+numpy==1.26.4
+Pillow==11.3.0
+plyfile==0.8.1
+tqdm==4.67.1
+pytest==8.3.5
+# Optional LPIPS: install torchvision==0.20.1 and lpips==0.1.4 separately.
