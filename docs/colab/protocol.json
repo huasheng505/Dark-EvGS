@@ -1,0 +1,12 @@
+{
+  "implementation": "independent compact CTCM / triplet Gaussian field",
+  "target_scene": "lion",
+  "prior_train_scene": "baseball",
+  "prior_val_scene": "panda",
+  "prior_train_pairs": 100,
+  "prior_validation_pairs": 119,
+  "prior_epochs": 5,
+  "target_bright_frames": "evaluation only",
+  "difference_from_paper": "Repository scenes replace unpublished 500 auxiliary pairs; independent CTCM architecture",
+  "manifest_sha256": "fa9590d9285470abe03e0c183469317500d6474cf2138e7e22d5874437b25ab8"
+}

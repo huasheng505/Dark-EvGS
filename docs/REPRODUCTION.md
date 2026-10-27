@@ -5,7 +5,7 @@
 ## 已核实的来源和复现边界
 
 - 用户提供的论文是 [arXiv:2507.11931v2](https://arxiv.org/abs/2507.11931v2)，2026-04-13 版本；方法见 III 节，训练超参数见 IV-B，噪声滤波消融见表 V。
-- [作者仓库](https://github.com/Wujingqian/Dark-EvGS)和当前 `huasheng505/Dark-EvGS` 的公开 HEAD 均核实为 `a29a7e784922a7c0ea91743b676ba8b3be602977`。该版本提供渲染、数据及部分检查点，没有完整 Dark-EvGS 训练或 CTCM 实现。
+- [作者仓库](https://github.com/Wujingqian/Dark-EvGS)和 `huasheng505/Dark-EvGS` 在初始核查时的公开 HEAD 均为 `a29a7e784922a7c0ea91743b676ba8b3be602977`。该版本提供渲染、数据及部分检查点，没有完整 Dark-EvGS 训练或 CTCM 实现。
 - 论文基于 [EvLowLight](https://github.com/sherrycattt/EvLowLight)，核查版本 `77a7f63420b69b4aaeca5567a576edec0e2ed53e`。它公开了网络、推理与 Git LFS 预训练权重；仓库虽有 BasicSR 训练入口，README 仍将完整训练代码和训练集列为 TODO。它的多帧传播、光流和可变形卷积模块不能直接映射到这里的紧凑先验。
 - 本实现的 CTCM 是具备帧/事件编码、融合、CTMB 通道注意力和曝光预测的可训练替代网络。它**不能直接加载 EvLowLight 或作者的 CTCM 权重**；加载检查会拒绝不兼容模型，而不是忽略参数后用随机权重生成结果。
 - 作者使用 EvLowLight 初始化，加上随机初始化 CTMB，再用额外采集的 500 组无关场景暗/亮图像和事件训练 5 个 epoch。该辅助数据、微调权重以及完整 CTCM 架构没有随当前仓库提供。独立实现提供了先验训练接口，但这些实验材料仍需自行准备或向作者获取。
@@ -34,9 +34,25 @@ DARK_EVGS_VENV=/workspace/.venvs/dark-evgs-cuda \
 source /workspace/.venvs/dark-evgs-cuda/bin/activate
 ```
 
-如使用 CUDA 11.8，将 `DARK_EVGS_CUDA_VARIANT=cu118` 一并传入。PyTorch CUDA wheel 不包含构建扩展所需的完整 `nvcc`。编译器还须满足所选 NVIDIA toolkit 的要求。脚本保留 TLS 和 Git 校验，在缓存目录检出固定 CUDA 光栅化版本 `59f5f77e3ddbac3ed9db93ec2cfe99ed6c5d121d`，并初始化其 GLM 子模块。该版本来自 [原始 3DGS](https://github.com/graphdeco-inria/gaussian-splatting/tree/472689c0dc70417448fb451bf529ae532d32c095) 的固定子模块依赖，接口与本仓库早期光栅化调用一致。编译默认 `MAX_JOBS=4`，可按显存/内存资源调整。CUDA 分支仍需要在实际 GPU 机器上验证。
+如使用 CUDA 11.8，将 `DARK_EVGS_CUDA_VARIANT=cu118` 一并传入。PyTorch CUDA wheel 不包含构建扩展所需的完整 `nvcc`。编译器还须满足所选 NVIDIA toolkit 的要求。脚本保留 TLS 和 Git 校验，在缓存目录检出固定 CUDA 光栅化版本 `59f5f77e3ddbac3ed9db93ec2cfe99ed6c5d121d`，并初始化其 GLM 子模块。该版本来自 [原始 3DGS](https://github.com/graphdeco-inria/gaussian-splatting/tree/472689c0dc70417448fb451bf529ae532d32c095) 的固定子模块依赖，接口与本仓库早期光栅化调用一致。编译默认 `MAX_JOBS=4`，可按显存/内存资源调整。CUDA 分支现已在 Colab T4 上完成实际验证，详见下文 Colab 路径。
 
 可选 LPIPS 评估：安装时设置 `DARK_EVGS_LPIPS=1`，或在同一环境安装对应 CUDA/CPU 的 `torchvision==0.20.1` 和 `lpips==0.1.4`。首次 LPIPS 评估还需要下载官方 Torchvision 特征权重；断网环境请事先缓存，不能用随机网络代替。
+
+### 已验证的 Colab 路径
+
+在启用 GPU 的 Colab 终端中，克隆仓库后执行：
+
+```bash
+cd /content/Dark-EvGS              # 改成实际克隆位置
+DARK_EVGS_LPIPS=1 bash scripts/setup_colab.sh
+/content/.venvs/dark-evgs/bin/python -m pytest -q tests
+/content/.venvs/dark-evgs/bin/python scripts/smoke_reproduction.py \
+  --workdir /content/dark-evgs-smoke --device cuda --backend cuda
+```
+
+Colab 镜像可能只有 CUDA 版 PyTorch 而没有 `nvcc`；Python 3.13 也不匹配这里的固定 wheel。`setup_colab.sh` 在单独目录准备 Python 3.12、CUDA 12.6 编译组件和 PyTorch 2.5.1/cu121。自动安装编译器的分支针对 Ubuntu 24.04，不安装或替换 NVIDIA 驱动，默认仅用两个编译进程。旧版扩展在新 CUDA 下缺少间接 `<cstdint>` 头文件的问题通过 `NVCC_PREPEND_FLAGS=--pre-include=cstdint` 修复，固定上游源码不改动。CUDA 12.6 与 wheel 的 12.1 有次版本差异；当前 T4 上已编译并运行验证，不能据此保证其他工具链。
+
+GPU 光栅化反向含原子累加，独立运行不能要求逐参数位级一致。CUDA 测试会精确核验检查点参数、统计量和 Adam 状态恢复；端到端检查核验视图采样顺序及 RNG，并对两条训练路径的测试渲染使用 RMSE `<1e-3`、最大像素误差 `<1e-2` 的阈值。CPU 参考后端仍要求逐参数精确一致。详细实测见 [COLAB_RESULTS.md](COLAB_RESULTS.md)。
 
 ## 数据与防止评估泄漏
 
@@ -180,7 +196,7 @@ python infer.py -m data/lion/output -s data/lion --images low_light_frames \
 
 ## 当前验证与下一步实验
 
-本任务环境没有 NVIDIA GPU 和 CUDA toolkit，因此 CUDA 扩展构建、真实场景训练、作者检查点 GPU 渲染、论文指标和速度均未验证。CPU 安装已在当前实例执行，最终 `python -m pytest -q tests` 为 **28 passed**。测试含合成端到端先验训练、伪图生成、高斯增密训练、续训、留出视图渲染和 PSNR/SSIM；验证了先验和高斯的拆分续训与连续训练一致。原作者 Lion Gaussian PLY 读取与 SH 字段兼容测试通过。LPIPS 未运行。
+初始 Codex 环境的 CPU 验证为 **28 passed**。后续已连接用户的 Colab T4，完成 CUDA 构建和 **31 passed**，并运行真实场景先验训练、作者检查点 GPU 推理及 Lion 独立训练，包含 PSNR/SSIM/LPIPS 评估。更新后的范围和实测值见 [COLAB_RESULTS.md](COLAB_RESULTS.md)。
 
 合成端到端结果只验证软件行为。测试先验仅训练一个小样本、一轮，高斯只训练六步，不能据此评价真实重建质量。详细验证范围见 [VALIDATION.md](VALIDATION.md)。
 

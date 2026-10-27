@@ -1,0 +1,1761 @@
+{
+  "held_out_scenes": [
+    "lion"
+  ],
+  "train": [
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00000.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00001.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000000.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000001.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0000.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00001.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00002.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000001.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000002.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0001.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00002.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00003.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000002.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000003.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0002.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00003.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00004.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000003.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000004.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0003.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00004.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00005.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000004.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000005.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0004.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00005.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00006.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000005.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000006.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0005.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00006.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00007.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000006.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000007.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0006.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00007.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00008.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000007.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000008.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0007.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00008.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00009.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000008.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000009.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0008.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00009.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00010.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000009.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000010.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0009.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00010.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00011.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000010.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000011.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0010.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00011.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00012.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000011.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000012.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0011.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00012.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00013.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000012.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000013.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0012.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00013.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00014.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000013.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000014.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0013.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00014.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00015.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000014.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000015.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0014.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00015.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00016.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000015.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000016.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0015.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00016.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00017.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000016.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000017.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0016.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00017.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00018.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000017.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000018.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0017.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00018.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00019.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000018.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000019.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0018.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00019.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00020.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000019.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000020.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0019.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00020.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00021.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000020.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000021.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0020.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00021.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00022.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000021.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000022.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0021.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00022.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00023.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000022.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000023.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0022.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00023.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00024.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000023.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000024.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0023.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00024.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00025.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000024.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000025.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0024.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00025.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00026.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000025.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000026.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0025.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00026.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00027.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000026.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000027.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0026.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00027.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00028.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000027.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000028.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0027.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00028.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00029.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000028.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000029.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0028.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00029.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00030.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000029.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000030.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0029.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00030.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00031.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000030.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000031.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0030.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00031.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00032.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000031.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000032.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0031.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00032.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00033.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000032.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000033.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0032.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00033.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00034.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000033.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000034.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0033.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00034.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00035.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000034.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000035.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0034.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00035.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00036.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000035.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000036.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0035.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00036.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00037.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000036.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000037.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0036.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00037.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00038.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000037.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000038.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0037.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00038.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00039.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000038.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000039.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0038.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00039.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00040.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000039.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000040.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0039.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00040.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00041.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000040.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000041.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0040.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00041.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00042.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000041.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000042.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0041.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00042.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00043.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000042.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000043.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0042.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00043.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00044.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000043.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000044.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0043.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00044.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00045.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000044.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000045.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0044.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00045.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00046.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000045.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000046.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0045.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00046.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00047.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000046.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000047.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0046.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00047.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00048.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000047.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000048.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0047.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00048.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00049.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000048.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000049.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0048.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00049.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00050.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000049.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000050.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0049.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00050.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00051.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000050.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000051.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0050.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00051.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00052.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000051.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000052.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0051.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00052.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00053.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000052.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000053.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0052.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00053.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00054.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000053.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000054.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0053.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00054.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00055.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000054.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000055.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0054.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00055.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00056.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000055.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000056.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0055.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00056.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00057.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000056.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000057.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0056.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00057.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00058.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000057.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000058.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0057.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00058.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00059.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000058.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000059.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0058.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00059.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00060.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000059.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000060.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0059.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00060.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00061.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000060.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000061.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0060.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00061.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00062.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000061.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000062.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0061.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00062.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00063.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000062.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000063.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0062.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00063.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00064.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000063.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000064.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0063.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00064.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00065.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000064.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000065.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0064.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00065.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00066.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000065.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000066.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0065.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00066.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00067.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000066.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000067.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0066.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00067.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00068.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000067.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000068.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0067.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00068.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00069.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000068.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000069.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0068.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00069.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00070.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000069.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000070.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0069.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00070.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00071.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000070.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000071.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0070.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00071.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00072.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000071.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000072.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0071.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00072.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00073.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000072.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000073.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0072.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00073.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00074.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000073.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000074.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0073.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00074.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00075.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000074.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000075.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0074.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00075.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00076.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000075.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000076.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0075.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00076.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00077.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000076.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000077.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0076.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00077.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00078.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000077.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000078.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0077.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00078.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00079.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000078.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000079.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0078.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00079.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00080.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000079.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000080.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0079.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00080.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00081.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000080.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000081.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0080.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00081.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00082.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000081.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000082.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0081.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00082.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00083.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000082.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000083.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0082.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00083.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00084.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000083.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000084.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0083.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00084.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00085.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000084.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000085.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0084.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00085.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00086.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000085.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000086.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0085.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00086.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00087.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000086.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000087.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0086.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00087.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00088.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000087.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000088.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0087.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00088.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00089.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000088.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000089.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0088.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00089.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00090.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000089.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000090.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0089.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00090.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00091.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000090.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000091.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0090.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00091.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00092.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000091.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000092.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0091.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00092.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00093.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000092.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000093.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0092.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00093.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00094.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000093.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000094.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0093.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00094.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00095.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000094.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000095.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0094.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00095.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00096.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000095.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000096.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0095.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00096.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00097.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000096.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000097.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0096.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00097.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00098.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000097.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000098.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0097.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00098.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00099.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000098.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000099.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0098.npz"
+    },
+    {
+      "scene": "baseball",
+      "dark0": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00099.png",
+      "dark1": "/content/dark-evgs-reproduction/data/baseball/low_light_frames/00100.png",
+      "bright0": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000099.png",
+      "bright1": "/content/dark-evgs-reproduction/data/baseball/gt_bright_frames/000100.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/baseball_0099.npz"
+    }
+  ],
+  "val": [
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000000.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000001.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000000.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000001.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0000.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000001.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000002.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000001.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000002.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0001.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000002.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000003.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000002.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000003.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0002.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000003.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000004.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000003.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000004.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0003.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000004.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000005.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000004.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000005.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0004.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000005.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000006.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000005.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000006.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0005.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000006.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000007.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000006.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000007.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0006.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000007.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000008.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000007.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000008.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0007.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000008.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000009.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000008.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000009.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0008.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000009.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000010.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000009.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000010.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0009.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000010.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000011.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000010.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000011.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0010.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000011.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000012.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000011.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000012.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0011.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000012.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000013.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000012.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000013.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0012.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000013.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000014.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000013.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000014.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0013.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000014.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000015.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000014.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000015.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0014.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000015.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000016.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000015.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000016.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0015.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000016.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000017.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000016.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000017.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0016.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000017.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000018.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000017.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000018.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0017.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000018.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000019.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000018.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000019.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0018.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000019.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000020.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000019.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000020.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0019.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000020.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000021.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000020.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000021.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0020.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000021.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000022.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000021.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000022.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0021.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000022.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000023.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000022.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000023.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0022.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000023.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000024.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000023.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000024.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0023.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000024.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000025.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000024.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000025.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0024.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000025.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000026.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000025.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000026.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0025.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000026.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000027.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000026.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000027.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0026.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000027.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000028.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000027.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000028.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0027.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000028.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000029.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000028.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000029.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0028.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000029.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000030.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000029.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000030.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0029.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000030.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000031.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000030.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000031.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0030.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000031.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000032.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000031.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000032.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0031.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000032.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000033.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000032.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000033.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0032.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000033.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000034.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000033.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000034.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0033.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000034.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000035.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000034.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000035.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0034.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000035.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000036.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000035.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000036.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0035.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000036.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000037.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000036.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000037.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0036.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000037.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000038.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000037.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000038.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0037.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000038.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000039.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000038.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000039.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0038.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000039.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000040.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000039.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000040.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0039.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000040.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000041.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000040.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000041.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0040.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000041.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000042.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000041.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000042.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0041.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000042.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000043.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000042.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000043.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0042.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000043.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000044.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000043.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000044.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0043.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000044.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000045.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000044.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000045.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0044.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000045.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000046.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000045.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000046.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0045.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000046.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000047.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000046.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000047.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0046.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000047.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000048.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000047.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000048.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0047.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000048.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000049.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000048.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000049.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0048.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000049.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000050.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000049.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000050.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0049.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000050.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000051.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000050.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000051.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0050.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000051.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000052.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000051.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000052.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0051.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000052.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000053.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000052.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000053.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0052.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000053.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000054.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000053.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000054.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0053.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000054.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000055.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000054.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000055.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0054.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000055.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000056.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000055.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000056.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0055.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000056.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000057.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000056.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000057.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0056.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000057.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000058.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000057.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000058.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0057.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000058.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000059.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000058.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000059.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0058.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000059.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000060.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000059.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000060.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0059.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000060.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000061.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000060.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000061.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0060.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000061.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000062.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000061.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000062.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0061.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000062.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000063.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000062.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000063.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0062.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000063.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000064.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000063.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000064.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0063.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000064.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000065.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000064.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000065.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0064.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000065.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000066.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000065.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000066.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0065.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000066.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000067.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000066.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000067.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0066.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000067.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000068.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000067.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000068.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0067.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000068.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000069.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000068.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000069.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0068.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000069.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000070.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000069.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000070.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0069.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000070.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000071.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000070.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000071.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0070.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000071.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000072.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000071.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000072.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0071.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000072.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000073.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000072.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000073.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0072.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000073.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000074.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000073.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000074.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0073.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000074.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000075.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000074.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000075.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0074.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000075.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000076.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000075.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000076.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0075.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000076.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000077.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000076.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000077.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0076.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000077.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000078.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000077.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000078.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0077.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000078.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000079.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000078.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000079.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0078.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000079.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000080.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000079.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000080.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0079.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000080.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000081.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000080.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000081.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0080.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000081.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000082.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000081.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000082.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0081.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000082.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000083.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000082.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000083.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0082.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000083.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000084.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000083.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000084.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0083.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000084.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000085.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000084.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000085.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0084.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000085.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000086.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000085.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000086.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0085.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000086.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000087.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000086.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000087.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0086.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000087.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000088.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000087.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000088.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0087.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000088.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000089.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000088.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000089.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0088.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000089.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000090.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000089.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000090.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0089.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000090.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000091.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000090.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000091.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0090.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000091.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000092.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000091.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000092.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0091.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000092.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000093.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000092.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000093.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0092.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000093.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000094.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000093.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000094.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0093.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000094.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000095.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000094.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000095.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0094.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000095.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000096.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000095.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000096.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0095.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000096.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000097.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000096.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000097.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0096.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000097.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000098.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000097.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000098.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0097.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000098.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000099.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000098.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000099.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0098.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000099.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000100.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000099.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000100.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0099.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000100.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000101.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000100.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000101.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0100.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000101.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000102.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000101.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000102.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0101.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000102.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000103.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000102.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000103.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0102.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000103.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000104.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000103.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000104.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0103.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000104.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000105.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000104.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000105.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0104.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000105.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000106.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000105.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000106.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0105.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000106.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000107.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000106.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000107.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0106.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000107.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000108.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000107.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000108.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0107.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000108.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000109.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000108.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000109.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0108.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000109.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000110.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000109.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000110.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0109.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000110.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000111.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000110.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000111.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0110.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000111.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000112.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000111.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000112.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0111.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000112.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000113.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000112.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000113.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0112.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000113.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000114.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000113.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000114.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0113.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000114.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000115.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000114.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000115.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0114.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000115.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000116.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000115.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000116.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0115.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000116.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000117.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000116.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000117.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0116.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000117.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000118.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000117.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000118.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0117.npz"
+    },
+    {
+      "scene": "panda",
+      "dark0": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000118.png",
+      "dark1": "/content/dark-evgs-reproduction/data/panda/low_light_frames/000119.png",
+      "bright0": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000118.png",
+      "bright1": "/content/dark-evgs-reproduction/data/panda/gt_bright_frames/000119.png",
+      "event_voxel": "/content/dark-evgs-validation-001/auxiliary/panda_0118.npz"
+    }
+  ]
+}

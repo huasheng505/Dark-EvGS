@@ -1,0 +1,16 @@
+{
+  "initial_1000": {
+    "elapsed_seconds": 30.192267526999785,
+    "exit_code": 0
+  },
+  "continuation_29000": {
+    "elapsed_seconds": 2060.8845732499994,
+    "exit_code": 0
+  },
+  "holistic_control_1000": {
+    "elapsed_seconds": 29.39347396999983,
+    "exit_code": 0
+  },
+  "gaussian_training_total_seconds": 2091.0768407769992,
+  "scope": "Process wall time including startup/loading, not a standardized performance benchmark"
+}

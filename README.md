@@ -4,7 +4,9 @@
 > for the added prior training, triplet-supervised Gaussian training, checkpoint
 > resume, inference and evaluation workflow. This is a paper-guided independent
 > implementation; the unpublished author CTCM/data are not included. CPU tests
-> and a synthetic end-to-end workflow pass; GPU/paper-metric validation is pending.
+> and CUDA tests pass. See [Colab GPU results](docs/COLAB_RESULTS.md) for measured
+> inference/training results and the remaining gap to paper-level reproduction.
+> The measured independent 30k-step Lion run does not reproduce the paper's quality.
 
 > This repository supports reproducibility for the IEEE TIP paper **Dark-EvGS: Event Camera as an Eye for Radiance Field in the Dark**. It provides code, sample data, and selected pretrained outputs for rendering reproduction and dataset usage.
 

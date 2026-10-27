@@ -1,0 +1,44 @@
+{
+  "scope": "synthetic functionality only; not paper reproduction metrics",
+  "device": "cuda",
+  "backend": "cuda",
+  "resume_comparison": "render_rmse<1e-3_max<1e-2",
+  "parameter_max_differences": {
+    "_xyz": 0.002061009407043457,
+    "_features_dc": 0.00015050172805786133,
+    "_features_rest": 0.0,
+    "_opacity": 0.008325576782226562,
+    "_scaling": 0.00677800178527832,
+    "_rotation": 0.0069165825843811035,
+    "max_radii2D": 0.0,
+    "xyz_gradient_accum": 0.0,
+    "denom": 0.0
+  },
+  "render_differences": [
+    {
+      "name": "000000.png",
+      "rmse": 0.00033445365261286497,
+      "max_abs": 0.0023115575313568115
+    },
+    {
+      "name": "000005.png",
+      "rmse": 0.0003196687321178615,
+      "max_abs": 0.0025071874260902405
+    }
+  ],
+  "stages": [
+    "prior training",
+    "train-view pseudo generation",
+    "GS training",
+    "resume",
+    "held-out inference",
+    "PSNR/SSIM"
+  ],
+  "final_iteration": 6,
+  "test_views": 2,
+  "resume_matches_uninterrupted": true,
+  "metrics": {
+    "psnr": 14.417188063741598,
+    "ssim": 0.5680417716503143
+  }
+}

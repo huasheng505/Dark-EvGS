@@ -1,0 +1,28 @@
+{
+  "python": "3.12.15",
+  "torch": "2.5.1+cu121",
+  "torch_cuda": "12.1",
+  "gpu": "Tesla T4",
+  "gpu_memory_bytes": 15637086208,
+  "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "compiler": "nvcc: NVIDIA (R) Cuda compiler driver\nCopyright (c) 2005-2024 NVIDIA Corporation\nBuilt on Tue_Oct_29_23:50:19_PDT_2024\nCuda compilation tools, release 12.6, V12.6.85\nBuild cuda_12.6.r12.6/compiler.35059454_0\n",
+  "gpu_driver": "580.82.07",
+  "dependencies": {
+    "numpy": "1.26.4",
+    "pillow": "11.3.0",
+    "plyfile": "0.8.1",
+    "pytest": "8.3.5",
+    "torchvision": "0.20.1+cu121",
+    "lpips": "0.1.4"
+  },
+  "base_commit": "e1722aecee9d40fefec76f4cb5522d7e9e923b59",
+  "algorithm_hashes": {
+    "train.py": "d41d6c5453d0b0d2666dbd82cf44c880b6b21e69975b2c24ad88f080fc70a7a2",
+    "train_prior.py": "81b78dd42b113d0b5d9c181898c71f461822d58dce38cfe059b26739ab5fc170",
+    "prepare_pseudo.py": "efde043e58214bf124e48a8f9cbbc7d7c0616621eb731e32649f80ac354b6cb8",
+    "infer.py": "a016bf3cc3643f56afca825ce5287cb715322880f32fac8f0f8a4805f14ce6e9",
+    "evaluate.py": "6f9d531ce0140ce13ffe1be7ac29c4008c8c2ae33861ca85280a6c4256d031d9",
+    "dark_evgs/backend.py": "c2b2584981740ee4166ab230ec5614f4fadf3f80e7ac95b339934a17a64fe50c",
+    "dark_evgs/prior.py": "00ec3f5f86333c750f83c7578bd58ed46375000fa8cfe859b6ea92b69285afdb"
+  }
+}

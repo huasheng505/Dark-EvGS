@@ -1,6 +1,6 @@
 # 验证记录
 
-当前实例：Python 3.12.14，PyTorch 2.5.1+cpu；没有 NVIDIA GPU/nvcc。
+初始 Codex 实例：Python 3.12.14，PyTorch 2.5.1+cpu；没有 NVIDIA GPU/nvcc。
 
 执行：
 
@@ -31,6 +31,14 @@ OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 PYTHONDONTWRITEBYTECODE=1 \
 | Badminton | — | 135 时间戳 / 100 帧，训练同步阻塞；静态相机加载通过 |
 | Cat | — | 缺相机位姿，阻塞 |
 
-尚未执行：CUDA 构建、GPU 前反向、真实场景 30,000 步、真实数据 PSNR/SSIM/LPIPS、作者模型 GPU 渲染、速度/显存基准。
+## 后续 Colab GPU 验证
+
+Tesla T4，Python 3.12.15，PyTorch 2.5.1+cu121，NVCC 12.6.85。固定光栅化扩展成功编译，最终 `python -m pytest -q tests` 为 **31 passed in 43.69s**，其中三项为实际 GPU 内核测试。
+
+GPU 覆盖新增：中心/偏移主点的原生 CUDA 渲染与 CPU 参考图像对比；真实几何/颜色/尺度/透明度梯度及损失下降；CUDA 增密、检查点序列化、精确参数及 Adam 状态恢复、PLY 往返。合成 CUDA 端到端也已运行通过。
+
+原生 CUDA 反向含非确定性原子累加，不能把“独立重跑逐参数完全相同”作为断点正确性的断言。实测差异在首次增密之后、恢复断点之前已出现；因此检查点恢复状态使用精确比较，独立 CUDA 运行使用明确的渲染误差阈值，CPU 路径保留精确比较。通过不等于 GPU 实验逐位可复现。
+
+真实先验、作者模型和 Lion 场景的运行与指标见 [COLAB_RESULTS.md](COLAB_RESULTS.md)。尚未完成全数据集训练、论文原始协议的指标复现和规范速度/峰值显存基准。
 
 不能从 CPU 的矩阵与梯度测试推断 CUDA 内核行为已正确。作者的完整 CTCM、微调权重、500 组辅助样本及原始 split 索引尚未获得。当前独立先验与作者网络不同，正式实验必须明确披露该差异。
